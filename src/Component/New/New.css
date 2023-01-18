@@ -1,0 +1,123 @@
+
+.new {
+    position: relative;
+    z-index: 10;
+    padding: 3rem 4rem 3rem 4rem;
+    gap: 2rem;
+    display: flex;
+}
+.new-l {
+    flex: 1.8;
+}
+.new-r {
+    flex: 2;
+ 
+}
+.new-r>img {
+    width: 100%;
+}
+
+.new-l>.text-animation {
+    display: flex;
+    padding-bottom: 0.7rem ;
+    font-family: 'Poppins', sans-serif;
+  justify-content: flex-start;
+align-items: center;
+  z-index: 8;
+  gap: 0px;
+  font-weight: 200;
+  font-size: 14px;
+  color: #c7c7c7;
+}
+.text {
+    color: white;
+    font-size: 1.4rem;
+   
+}
+
+.new-l>h2 {
+    color: #fff;
+    text-align: left;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 5rem;
+    padding-bottom: 2rem;
+}
+.new-body {
+    display: flex;
+    gap: 1rem;
+    
+    }
+    .new-body>div:nth-of-type(1) {
+        flex: 1;
+       
+        padding: 0rem 1rem;
+    }
+    .new-body>div:nth-of-type(2) {
+      
+        flex: 1;
+        padding: 0rem 1rem;
+    }
+
+    .new-body>div>div {
+      width: 3rem;
+      height: 70px;
+      width: 70px;
+      background: rgba(255, 255, 255, 0.08);
+backdrop-filter: blur(24px);
+margin-bottom: 1.5rem;
+border-radius: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .new-body>div>div>img {
+        width: 1.6rem;
+       
+    }
+    .new-body>div>h3 {
+        text-align: left;
+        margin-bottom: 1.5rem;
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .new-body>div>p {
+        text-align: left;
+        color: #c7c7c7;
+        font-weight: 300;
+        font-size: 15px;
+        margin-bottom: 1rem;
+    }
+
+@media screen and (max-width:992px) {
+    .new {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 3rem 2rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .new-l>h2 {
+        font-size: 40px;
+      line-height: 3.5rem;
+      width: 100%;
+    }
+}
+@media screen and (max-width:539px) {
+   
+    .new-body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:320px) {
+   
+    .new-l>h2 {
+        font-size: 20px;
+        line-height: 2.5rem;
+    }
+    .new-body>div>h3 {
+        font-size: 17px;
+    }
+}

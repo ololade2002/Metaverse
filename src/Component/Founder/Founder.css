@@ -1,0 +1,105 @@
+
+.founder {
+    padding: 4rem 4rem 6rem 4rem;
+  
+}
+.founder-preview {
+    display: flex;
+    justify-content: center;
+    height: 89vh;
+    position: relative;
+    z-index: 10;
+    gap: 2rem;
+}
+.founder-preview>div:nth-of-type(1) {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #6A6A6A;
+    border-radius: 32px;
+    flex: 1.5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  padding: 2rem 1.5rem;
+    z-index: 1;
+}
+.founder-preview>div:nth-of-type(1)>h2 {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 1rem;
+    color: white;
+}
+.founder-preview>div:nth-of-type(1)>p {
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+}
+.founder-preview>div:nth-of-type(1)>h4 {
+    text-align: left;
+    color: white;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 20px;
+}
+.founder-preview>div:nth-of-type(2) {
+   position: absolute;
+   left: 25%;
+   z-index: 10;
+   top: 7%;
+   width: 9rem;
+}
+.founder-preview>div:nth-of-type(3) {
+   position: relative;
+ 
+    flex: 4;
+    z-index: 1;
+}
+.founder-preview>div:nth-of-type(3)>img {
+   border-radius: 25px;
+  object-fit: cover;
+   height: 89vh;
+}
+.blur-f {
+    height: 10rem;
+    width: 10rem;
+    background-color: rgba(141, 57, 163, 1);
+    position: absolute;
+    z-index: 0;
+    filter: blur(105px);
+}
+
+
+@media screen and (min-width:1300px) {
+    .founder-preview {
+        height: auto;
+    }
+    .founder-preview>div:nth-of-type(3)>img {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .founder {
+        padding: 4rem 2rem 6rem 2rem;
+    }
+}
+
+@media screen and (max-width:988px) {
+    .founder {
+       padding: 10rem 2rem;
+    }
+   .founder-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   }
+   .founder-preview>div:nth-of-type(2) {
+    display: none;
+   }
+   .founder-preview>div:nth-of-type(3)>img  {
+    height: 60vh;
+   }
+}

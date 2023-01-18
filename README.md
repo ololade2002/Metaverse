@@ -68,3 +68,111 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!--
+
+@media screen and (max-width:1499px) {
+    .hero {
+        height: 100vh;
+    }
+}
+@media screen and (max-width:1204px) {
+    .hero {
+        height: 120vh;
+    }
+    .heading>h1 {
+        font-size: 90px;
+    }
+    .social-icons>ul {
+        top: 2%;
+      
+    }
+}
+@media screen and (max-width:920px) {
+    .hero {
+        height: 150vh;
+    }
+}
+@media screen and (max-width:768px) {
+    .hero {
+        height: 130vh;
+    }
+   
+    .heading>h1 {
+       font-size: 60px;
+    }
+    .heading>h1:nth-of-type(2) {
+        letter-spacing: 8px;
+    }
+    .social-icons>ul {
+        top: 0%;
+     
+        margin: 0rem 2rem;
+    }
+}
+
+@media screen and (max-width:492px) {
+    .hero {
+        height: 85vh;
+    }
+    .heading>h1 {
+        font-size: 40px;
+        
+    }
+    .heading>h1:nth-of-type(2) {
+        letter-spacing: 4px;
+    }
+    .cover>img {
+        transform: translateY(-4%);
+    }
+    .social-icons>ul {
+        gap: 1rem;
+        top: 0%;
+      
+    }
+    .social-icons>ul>li>img {
+        width: 1rem;
+        
+    }
+}
+@media screen and (max-width:375px) {
+  .hero {
+    height: 120vh;
+  }
+    .heading{
+        padding-top: 2rem;
+     
+    }
+    .heading>h1 {
+        font-size: 40px;
+       
+    }
+    .social-icons>ul {
+        top: 0%;
+        margin: 0rem  2rem;
+       gap: 1rem;
+    }
+    .stamp>img {
+        margin: 0rem 2rem;
+        right: 0%;
+    }
+}
+@media screen and (max-width:320px) {
+    .hero {
+        height: 100vh;
+    }
+    .heading>h1 {
+        font-size: 30px;
+       
+    }
+    .heading{
+        padding-top: 0rem;
+     
+    }
+    .social-icons>ul {
+        display: none;
+    }
+}
+
+-->
