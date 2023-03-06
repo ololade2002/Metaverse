@@ -27,8 +27,7 @@ const About = () => {
 
    <div className='gradient-05' />
    <div className="about-body" >
-    <h2 data-aos="fade-up" data-aos-offset="200" 
-  data-aos-easing="ease-in-sine" data-aos-duration="1200">
+    <h2>
     <span>Metaverse</span> is a new thing in the future, where you can enjoy
      the virtual world by feeling like it's really real, you can 
      feel what you feel in this metaverse world, because this is

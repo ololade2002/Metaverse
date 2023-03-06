@@ -1,7 +1,7 @@
 .world {
     position: relative;
     
-    padding: 4rem 4rem 6rem 4rem;
+    padding: 2rem 4rem 2rem 4rem;
 }
 
 .blur-w {
@@ -31,12 +31,12 @@ align-items: center;
   z-index: 8;
   gap: 0px;
   font-weight: 200;
-  font-size: 14px;
-  color: #c7c7c7;
+  font-size: 18px;
+  color: #fff;
 }
 .text {
     color: white;
-    font-size: 1.4rem;
+    font-size: 25px;
    
 }
 

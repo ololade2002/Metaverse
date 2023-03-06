@@ -16,10 +16,7 @@ const Founder = () => {
     <h4>{founder.text}</h4>
 </div>
 
-<div 
-data-aos="zoom-in" data-aos-offset="800" 
-data-aos-easing="ease-in-sine" data-aos-duration="1200"
->
+<div>
     <img src={founder.img1} alt="" />
 </div>
 

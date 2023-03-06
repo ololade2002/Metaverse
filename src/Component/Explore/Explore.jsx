@@ -5,7 +5,7 @@ import { exploreWorlds } from '../../Data/Data';
 import { useState } from 'react';
 import { TypingText } from '../../Data/CustomTexts';
 import { motion } from 'framer-motion';
-import { fadeIn } from '../../Data/Motion';
+//import { fadeIn } from '../../Data/Motion';
 
 const Explore = () => {
 
@@ -27,8 +27,8 @@ const [selected,setSelected] = useState(1)
 
  <div className="explore-body">
 {exploreWorlds.map((world,index)=> (
-  <motion.div 
-  variants={fadeIn('right', 'spring', index * 0.3, 0.5)}
+  <div 
+ 
   className={selected === index ? 'explore-active' :'explore-preview' }
   onClick={()=>setSelected(index)} key={index}>
 <img src={world.img} alt="" />
@@ -40,7 +40,7 @@ const [selected,setSelected] = useState(1)
 </div>
 
 
-  </motion.div>
+  </div>
 ))}
 
  </div>

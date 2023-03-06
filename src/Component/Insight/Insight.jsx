@@ -20,10 +20,7 @@ const Insight = () => {
 {insightData.map((insight,index)=> (
     <div className="insight-preview" key={index}>
 
-<div  
-data-aos="fade-up-right" data-aos-offset="500" 
-data-aos-easing="ease-in-sine" data-aos-duration="1000"
->
+<div>
     <img src={insight.img} alt="" />
 </div>
 
@@ -32,10 +29,7 @@ data-aos-easing="ease-in-sine" data-aos-duration="1000"
 <p>{insight.subText}</p>
 </div>
 
-<div
-data-aos="fade-up-right" data-aos-offset="500" 
-data-aos-easing="ease-in-sine" data-aos-duration="1000"
->
+<div>
     <img src={insight.arrow} alt="" />
 </div>
 

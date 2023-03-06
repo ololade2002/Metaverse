@@ -26,18 +26,14 @@ const New = () => {
 <div className="new-body">
 
 <div >
-   <div data-aos="zoom-in" 
-    data-aos-anchor-placement="center-bottom" data-aos-offset="200" 
-    data-aos-easing="ease-in-sine" data-aos-duration="1200"> <img src={img1} alt="" /></div>
+   <div> <img src={img1} alt="" /></div>
     <h3>A new world</h3>
     <p>We have the latest update with new world for
          you to try never mind</p>
 </div>
 
 <div >
-   <div data-aos="zoom-in" 
-    data-aos-anchor-placement="center-bottom" data-aos-offset="300" 
-    data-aos-easing="ease-in-sine"  data-aos-duration="1200"> <img src={img2} alt="" /></div>
+   <div> <img src={img2} alt="" /></div>
     <h3>More realistic</h3>
     <p>In the latest update, your eyes are narrow, making
          the world more realistic than ever</p>
@@ -46,10 +42,7 @@ const New = () => {
 </div>
 </div>
 
-<div className="new-r" 
-data-aos="zoom-in" 
-data-aos-anchor-placement="center-bottom" data-aos-offset="300" 
-data-aos-easing="ease-in-sine" data-aos-duration="1200">
+<div className="new-r" >
     <img src={news} alt="" />
 </div>
 

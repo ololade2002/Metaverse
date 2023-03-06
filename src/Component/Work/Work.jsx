@@ -13,11 +13,7 @@ const Work = () => {
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}>
 
-    <div className='work-l'
-    data-aos="zoom-in" 
-    data-aos-anchor-placement="center-bottom" data-aos-offset="200" 
-    data-aos-easing="ease-in-sine" data-aos-duration="1200"
-    >
+    <div className='work-l'>
    <img src={img1} alt="" />
     </div>
 
@@ -31,9 +27,7 @@ const Work = () => {
         <h2>
           Get started with just a few clicks</h2>
 {getStarted.map((work,index)=> (
-    <div className="preview" key={index}  data-aos="fade-up-left"
-    data-aos-anchor-placement="center-bottom" data-aos-offset="300"
-    data-aos-duration="1200">
+    <div className="preview" key={index} >
     <div >
         <h2>{work.number}</h2>
     </div>
